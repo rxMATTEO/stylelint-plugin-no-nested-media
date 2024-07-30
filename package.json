@@ -1,6 +1,6 @@
 {
   "name": "stylelint-plugin-no-nested-media",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stylelint plugin which is reports an error if you nesting media queries into selector",
   "scripts": {
   },
