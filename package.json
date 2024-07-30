@@ -1,0 +1,28 @@
+{
+  "name": "stylelint-plugin-no-nested-media",
+  "version": "1.0.0",
+  "description": "Stylelint plugin which is reports an error if you nesting media queries into selector",
+  "scripts": {
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rxMATTEO/stylelint-plugin-no-nested-media.git"
+  },
+  "files": [
+    "index.mjs"
+  ],
+  "exports": [
+    "./index.mjs"
+  ],
+  "keywords": [
+    "stylelint",
+    "stylelint-plugin"
+  ],
+  "author": "rxMATTEO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rxMATTEO/stylelint-plugin-no-nested-media/issues"
+  },
+  "homepage": "https://github.com/rxMATTEO/stylelint-plugin-no-nested-media#readme"
+}
