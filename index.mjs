@@ -11,9 +11,9 @@ const messages = ruleMessages(ruleName, {
   rejected: (selector) => `Unexpected no nested media selector in "${selector}"`
 });
 
-// const meta = {
-//   url: 'https://github.com/foo-org/stylelint-selector-no-foo/blob/main/README.md'
-// };
+const meta = {
+  url: 'https://github.com/rxMATTEO/stylelint-plugin-no-nested-media/blob/main/README.md'
+};
 
 /** @type {import('stylelint').Rule} */
 const ruleFunction = (primary) => {
@@ -45,6 +45,6 @@ const ruleFunction = (primary) => {
 
 ruleFunction.ruleName = ruleName;
 ruleFunction.messages = messages;
-// ruleFunction.meta = meta;
+ruleFunction.meta = meta;
 
 export default createPlugin(ruleName, ruleFunction);
