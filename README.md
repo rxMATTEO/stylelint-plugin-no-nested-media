@@ -1,3 +1,32 @@
+# Introduction
+
+This is plugin for `stylelint` avoid you from writing `@media` rules into selectors (class, ids and other). It's allowed you writing `@media` queries only at the top level of your file
+
+For example, this case will throw an error:
+
+```css
+.button {
+  width: 200px
+  
+  @media (max-width: 200px) {
+    height: 200px;
+  }
+}
+```
+
+This case will not throw any errors
+
+```css
+.button {
+  width: 200px
+}
+@media (max-width: 200px) {
+  .button {
+    height: 200px;
+  }
+}
+```
+
 # How to use
 
 ## If stylelint not installed
